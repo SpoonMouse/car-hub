@@ -279,7 +279,7 @@
       "id": "(app-client)/./components/CustomButton.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -287,7 +287,7 @@
       "id": "(app-client)/./components/Hero.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -295,7 +295,7 @@
       "id": "(app-client)/./components/SearchBar.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -303,7 +303,7 @@
       "id": "(app-client)/./components/SearchManufacturer.tsx",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -311,7 +311,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -319,7 +319,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -327,7 +327,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -335,7 +335,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -343,7 +343,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -351,12 +351,16 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/app/layout": {
       "modules": [
         "/Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/app/globals.css"
@@ -364,10 +368,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/app/page": {
-      "modules": [],
-      "files": []
     }
   }
 }
