@@ -64,6 +64,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/CarDetails.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/CarDetails.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/CustomButton.tsx": {
       "*": {
         "id": "(sc_client)/./components/CustomButton.tsx",
@@ -285,6 +293,14 @@
     },
     "/Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/components/CarCard.tsx": {
       "id": "(app-client)/./components/CarCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/components/CarDetails.tsx": {
+      "id": "(app-client)/./components/CarDetails.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
