@@ -12,7 +12,7 @@ const Navbar = () => {
             src="/logo.svg" 
             alt="car hub logo" 
             width={118}
-            height={18}
+            height={40}
             className='object-contain'/>
         </Link>
         <CustomButton 
