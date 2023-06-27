@@ -24,19 +24,18 @@ export default function Home() {
     setLoading(true);
     try {
       const result = await fetchCars({
-        manufacturer: manufacturer || "",
-        year: year || 2022,
-        fuel: fuel || "",
+        manufacturer: manufacturer || '',
+        year: parseInt(year) || 2022,
+        fuel: fuel || '',
         limit: limit || 10,
-        model: model || "",
+        model: model || '',
       });
-
-    setAllCars(result);
-    
+  
+      setAllCars(result);
     } catch (error) {
       console.log(error);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
   }
 
