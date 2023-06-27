@@ -24,7 +24,7 @@ CarHub is designed to offer a convenient and hassle-free car rental experience. 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/CarHub.git
+   git clone https://github.com/spoonmouse/car-hub.git
 
 2. Navigate to the project directory:
     ```bash
@@ -39,3 +39,11 @@ CarHub is designed to offer a convenient and hassle-free car rental experience. 
     npm run dev
 
 5. Open your web browser and visit http://localhost:3000 to access the CarHub website.
+
+## Contributing
+
+Contributions to CarHub are welcome! If you have any ideas, suggestions, or improvements, please feel free to create a new issue or submit a pull request on the GitHub repository.
+
+## License
+
+CarHub is open source and available under the MIT License.
