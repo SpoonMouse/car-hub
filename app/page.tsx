@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
 
-            {allCars.length > 0 ? (
+          {Array.isArray(allCars) && allCars.length > 0 ? (
               <section>
                 <div className='home__cars-wrapper'>
                   {allCars?.map((car) => (
@@ -101,13 +101,12 @@ export default function Home() {
                   setLimit={setLimit}
                 />
               </section>
-            ): (
+            ) : (
               <div className='home__error-container'>
                 <h2 className='text-black text-xl font-bold'>Oops No Results</h2>
-                <p>{allCars?.message}</p>
+                <p>{allCars?.message || "No cars found."}</p>
               </div>
             )}
-
         </div>
     </main>
   )
