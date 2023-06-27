@@ -1,4 +1,4 @@
-// File: /Users/spoon/Dropbox/Mac/Desktop/WebDev/nextjs/car-app/app/layout.tsx
+// File: /Users/spoon/Dropbox/Mac/Desktop/rent-mobile/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
