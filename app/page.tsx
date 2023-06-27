@@ -6,7 +6,7 @@ import { fetchCars } from '@/utils';
 import { fuels, yearsOfProduction } from '@/constants';
 
 export default function Home() {
-  const [allCars, setAllCars] = useState([]);
+  const [allCars, setAllCars] = useState<{ message?: string }[]>([]);
   const [loading, setLoading] = useState(false);
 
   // search states
