@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CarHub
 
-## Getting Started
+CarHub is a modern and user-friendly car rental website built using ReactJS, NextJS, Tailwind CSS, and RapidAPI. It provides a seamless platform for users to search for and rent newer car models based on their preferences and requirements.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+CarHub is designed to offer a convenient and hassle-free car rental experience. The website features a clean and intuitive user interface that allows users to easily search for cars using a search bar. With CarHub, users can filter the search results based on criteria such as fuel type, year of manufacture, and other relevant attributes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ReactJS: A popular JavaScript library for building user interfaces. ReactJS enables the creation of dynamic and interactive components, enhancing the user experience.
+- NextJS: A framework built on top of ReactJS that enables server-side rendering and provides additional features such as routing and API handling. NextJS enhances performance and SEO capabilities.
+- Tailwind CSS: A highly customizable CSS framework that follows a utility-first approach. It provides a comprehensive set of pre-built CSS classes, making styling and responsiveness efficient.
+- RapidAPI: A platform that allows easy integration with various APIs. CarHub utilizes RapidAPI to access car-related data and services for providing up-to-date information on available cars.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Search Bar:** Users can enter specific car models or keywords to search for their desired vehicles, providing a quick and convenient way to find the right car.
+- **Advanced Filters:** CarHub offers advanced filtering options, allowing users to narrow down their search based on preferences such as fuel type, year of manufacture, and other relevant attributes.
+- **Detailed Car Listings:** Each car listing provides comprehensive details about the vehicle, including specifications, features, rental rates, and availability.
+- **Responsive Design:** CarHub is built with a responsive design approach, ensuring optimal viewing and usability across different devices and screen sizes.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/CarHub.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
+    ```bash
+    cd car-hub
 
-## Deploy on Vercel
+3. Install the dependencies:
+    ```bash
+    npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the development server:
+    ```bash
+    npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open your web browser and visit http://localhost:3000 to access the CarHub website.
